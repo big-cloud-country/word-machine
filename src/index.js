@@ -1,1 +1,1 @@
-export * from './components/Requirements/index';
+export * from './components/WordMachine';

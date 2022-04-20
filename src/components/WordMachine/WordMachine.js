@@ -6,7 +6,7 @@ import "react-bootstrap-typeahead/css/Typeahead.bs5.css";
 
 const SEARCH_URI = 'https://cdbnttbopk.execute-api.us-east-1.amazonaws.com/dev/invoke-sm'
 
-export const Requirements = () => {
+export const WordMachine = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [options, setOptions] = useState([]);
 
