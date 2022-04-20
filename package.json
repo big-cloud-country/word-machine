@@ -1,6 +1,9 @@
 {
-  "name": "word-machine",
-  "version": "1.0.0",
+  "name": "@big-cloud-country/word-machine",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/big-cloud-country"
+  },
+  "version": "1.0.1",
   "description": "A typeahead box that suggests text to finish the sentence from a GPT language model. API key required.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -12,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xxx/demo-component.git"
+    "url": "https://github.com/big-cloud-country/word-machine.git"
   },
   "author": "Big Cloud Country",
   "license": "ISC",
